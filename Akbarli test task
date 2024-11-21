@@ -1,0 +1,18 @@
+# Step 1: Check if the entered number is greater than 7
+number = int(input("Enter a number: "))
+if number > 7:
+    print("Hello")
+
+# Step 2: Check if the entered name matches "John"
+name = input("Enter a name: ")
+if name == "John":
+    print("Hello, John")
+else:
+    print("There is no such name")
+
+# Step 3: Output array elements that are multiples of 3
+array = list(map(int, input("Enter a numeric array separated by spaces: ").split()))
+print("Elements divisible by 3:")
+for element in array:
+    if element % 3 == 0:
+        print(element)
